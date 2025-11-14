@@ -61,7 +61,7 @@ Flags are made using Wikipedia images
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
         {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "I lived in California my entire life"},
-       
+        "Belarus Flag](https://upload.wikimedia.org/wikipedia/commons/8/85/Flag_of_Belarus.svg)        
     ];
 
     // 3a. Consider how to update style count for size of container
@@ -99,9 +99,9 @@ Flags are made using Wikipedia images
 
 Here is what I did at those places
 
-- 🏫 Lots of Elementary Schools in Tucson, LA, Honolulu, and Glendale (CA)
-- 🏫 Middle and High School in Glendale (CA), Hoover High graduated '77
-- 🎓 Glendale CA Community College, UCLA Extension, LA Wilshire Computer Tech School '77 to '79
+- 🏫 In my younger days I went to stone ranch elementry school.
+- 🏫 For middle school I went to Oak Valley 
+- 🎓 Glendale CA Commnity College, UCLA Extension, LA Wilshire Comp
 - ⛪ England, London Missionary for Church of Jesus Christ of Latter-day Saints '79 to '81
 - 💼 Culver City, Glendale CA founder at Ashton-Tate, original PC's dBase 2 and 3 '82 to '87
 - 🎓 Eugene Oregon Undergraduate CompSci Degree at University of Oregon (Go Ducks!) '89 to '91
