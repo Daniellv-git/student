@@ -61,8 +61,6 @@ Flags are made using Wikipedia images
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
         {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "I lived in California my entire life"},
-        "Belarus Flag](https://upload.wikimedia.org/wikipedia/commons/8/85/Flag_of_Belarus.svg)        
-    ];
 
     // 3a. Consider how to update style count for size of container
     // The grid-template-columns has been defined as dynamic with auto-fill and minmax
@@ -101,13 +99,10 @@ Here is what I did at those places
 
 - 🏫 In my younger days I went to stone ranch elementry school.
 - 🏫 For middle school I went to Oak Valley 
-- 🎓 Glendale CA Commnity College, UCLA Extension, LA Wilshire Comp
-- ⛪ England, London Missionary for Church of Jesus Christ of Latter-day Saints '79 to '81
-- 💼 Culver City, Glendale CA founder at Ashton-Tate, original PC's dBase 2 and 3 '82 to '87
-- 🎓 Eugene Oregon Undergraduate CompSci Degree at University of Oregon (Go Ducks!) '89 to '91
-- 💼 Eugene Oregon, founder and owner @ Microniche `88, Point Control CAD CAM developer '91 to '96
-- 🏢 San Diego CA Qualcomm, Satellite Comm and 1st Mobile OS (BREW) '96 to '19
-- 👨‍🏫 San Diego CA Teacher of Computer Science @ Del Norte High School San Diego '19 to present
+- 🎓 I now go to del norte highschool in 9th grade.
+- ⛪ I live in san diego which is very nice
+- 🏢 I visit belaruse every summer to visit my family members
+- 
 
 ### Culture, Family, and Fun
 
