@@ -5,21 +5,18 @@ permalink: /about/
 comments: true
 ---
 
-## As a conversation Starter
+## As a Conversation Starter
 
 Here are some places I have lived.
 
 <comment>
-Flags are made using Wikipedia images
+Flags are made using Wikipedia images.
 </comment>
 
 <style>
-    /* Style looks pretty compact, 
-       - grid-container and grid-item are referenced the code 
-    */
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Dynamic columns */
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
         gap: 10px;
     }
     .grid-item {
@@ -27,11 +24,11 @@ Flags are made using Wikipedia images
     }
     .grid-item img {
         width: 100%;
-        height: 100px; /* Fixed height for uniformity */
-        object-fit: contain; /* Ensure the image fits within the fixed height */
+        height: 100px;
+        object-fit: contain;
     }
     .grid-item p {
-        margin: 5px 0; /* Add some margin for spacing */
+        margin: 5px 0;
     }
 
     .image-gallery {
@@ -39,8 +36,7 @@ Flags are made using Wikipedia images
         flex-wrap: nowrap;
         overflow-x: auto;
         gap: 10px;
-        }
-
+    }
     .image-gallery img {
         max-height: 150px;
         object-fit: cover;
@@ -48,73 +44,78 @@ Flags are made using Wikipedia images
     }
 </style>
 
-<!-- This grid_container class is used by CSS styling and the id is used by JavaScript connection -->
-<div class="grid-container" id="grid_container">
-    <!-- content will be added here by JavaScript -->
-</div>
+<!-- Grid that JS will fill -->
+<div class="grid-container" id="grid_container"></div>
 
 <script>
-    // 1. Make a connection to the HTML container defined in the HTML div
-    var container = document.getElementById("grid_container"); // This container connects to the HTML div
+    // Connect to the grid container in the HTML
+    var container = document.getElementById("grid_container");
 
-    // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
+    // Image base URL
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
+
+    // Data for places you've lived
     var living_in_the_world = [
-        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "I lived in California my entire life"},
+        {
+            flag: "0/01/Flag_of_California.svg",
+            greeting: "Hey",
+            description: "I lived in California my entire life"
+        }
+        // Add more objects like this later if you want
+    ];
 
-    // 3a. Consider how to update style count for size of container
-    // The grid-template-columns has been defined as dynamic with auto-fill and minmax
-
-    // 3b. Build grid items inside of our container for each row of data
+    // Build one grid item per place
     for (const location of living_in_the_world) {
-        // Create a "div" with "class grid-item" for each row
         var gridItem = document.createElement("div");
-        gridItem.className = "grid-item";  // This class name connects the gridItem to the CSS style elements
-        // Add "img" HTML tag for the flag
+        gridItem.className = "grid-item";
+
         var img = document.createElement("img");
-        img.src = http_source + location.flag; // concatenate the source and flag
-        img.alt = location.flag + " Flag"; // add alt text for accessibility
+        img.src = http_source + location.flag;
+        img.alt = location.flag + " Flag";
 
-        // Add "p" HTML tag for the description
         var description = document.createElement("p");
-        description.textContent = location.description; // extract the description
+        description.textContent = location.description;
 
-        // Add "p" HTML tag for the greeting
         var greeting = document.createElement("p");
-        greeting.textContent = location.greeting;  // extract the greeting
+        greeting.textContent = location.greeting;
 
-        // Append img and p HTML tags to the grid item DIV
         gridItem.appendChild(img);
         gridItem.appendChild(description);
         gridItem.appendChild(greeting);
 
-        // Append the grid item DIV to the container DIV
         container.appendChild(gridItem);
     }
 </script>
 
-### Journey through Life
+---
 
-Here is what I did at those places
+## Journey Through Life
 
-- 🏫 In my younger days I went to stone ranch elementry school.
-- 🏫 For middle school I went to Oak Valley 
-- 🎓 I now go to del norte highschool in 9th grade.
-- ⛪ I live in san diego which is very nice
-- 🏢 I visit belaruse every summer to visit my family members
-- 
+Here is what I did at those places:
 
-### Culture, Family, and Fun
+- 🏫 In my younger days I went to Stone Ranch Elementary School.  
+- 🏫 For middle school I went to Oak Valley.  
+- 🎓 I now go to Del Norte High School in 9th grade.  
+- ⛪ I live in San Diego, which is very nice.  
+- 🏢 I visit Belarus every summer to see my family.  
+
+---
+
+## Culture, Family, and Fun
 
 Everything for me, as for many others, revolves around family and faith.
 
-- My mother told me that I was Danish, English. and Irish, here is my researched [family tree]({{site.baseurl}}/images/about/familytree.png)
-- My family is pretty big as I have been married twice, my 1st wife passed away.  We have had 5 kids, 4 adopted by me, 1 biological.  Plus, there are three grandkids.  My name to my grandkids is Abuilito.
-- The gallery of pics has some of my family, fun, culture and faith memories.
+- My mother told me that I was Danish, English, and Irish. Here is my researched  
+  **[family tree]({{site.baseurl}}/images/about/familytree.png)**.  
+- My family is pretty big as I have been married twice. My first wife passed away.  
+  We had 5 kids — 4 adopted by me, 1 biological — plus 3 grandkids.  
+  My grandkids call me **Abuilito**.  
+- The gallery shows some of my family, fun, culture, and faith memories.
 
 <comment>
-Gallery of Pics, scroll to the right for more ...
+Gallery of Pics — scroll to the right for more.
 </comment>
+
 <div class="image-gallery">
   <img src="{{site.baseurl}}/images/about/missionary.jpg" alt="Image 1">
   <img src="{{site.baseurl}}/images/about/john_tamara.jpg" alt="Image 2">
@@ -129,18 +130,3 @@ Gallery of Pics, scroll to the right for more ...
   <img src="{{site.baseurl}}/images/about/grandkids.jpg" alt="Image 11">
   <img src="{{site.baseurl}}/images/about/farm.jpg" alt="Image 12">
 </div>
-<div id="flag"></div>
-
-<script>
-    var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
-    var living_in_the_world = [
-        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "I lived in California my entire life"}
-    ];
-
-    // Build full image URL
-    var imgUrl = http_source + living_in_the_world[0].flag;
-
-    // Insert image into page
-    document.getElementById("flag").innerHTML =
-        `<img src="${imgUrl}" width="250">`;
-</script>
