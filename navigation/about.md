@@ -103,15 +103,13 @@ Here is what I did at those places:
 
 ## Culture, Family, and Fun
 
-Everything for me, as for many others, revolves around family and faith.
+Everything for me revolves around family sports and freinds
 
-- My mother told me that I was Danish, English, and Irish. Here is my researched  
+- My Heritage is eorpopian my dad is from latvia in eastern eorope and my mom is also from easturn eorope but belerouse.
   **[family tree]({{site.baseurl}}/images/about/familytree.png)**.  
-- My family is pretty big as I have been married twice. My first wife passed away.  
-  We had 5 kids — 4 adopted by me, 1 biological — plus 3 grandkids.  
-  My grandkids call me **Abuilito**.  
-- The gallery shows some of my family, fun, culture, and faith memories.
-
+- My family consits of my mom dad and my brother 
+Im also very lucky to have both my grandparents and grandmothers with me
+  
 <comment>
 Gallery of Pics — scroll to the right for more.
 </comment>
