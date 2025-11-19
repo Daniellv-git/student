@@ -129,3 +129,18 @@ Gallery of Pics, scroll to the right for more ...
   <img src="{{site.baseurl}}/images/about/grandkids.jpg" alt="Image 11">
   <img src="{{site.baseurl}}/images/about/farm.jpg" alt="Image 12">
 </div>
+<div id="flag"></div>
+
+<script>
+    var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
+    var living_in_the_world = [
+        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "I lived in California my entire life"}
+    ];
+
+    // Build full image URL
+    var imgUrl = http_source + living_in_the_world[0].flag;
+
+    // Insert image into page
+    document.getElementById("flag").innerHTML =
+        `<img src="${imgUrl}" width="250">`;
+</script>
