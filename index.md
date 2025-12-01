@@ -7,7 +7,7 @@ show_reading_time: false
 
 Hi! My name is [Daniel Livitz]
 
-### Development Environment xxxxxx
+### Development Environment 
 
 > Coding starts with tools, explore these tools and procedures with a click.
 
