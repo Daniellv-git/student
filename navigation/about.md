@@ -44,47 +44,96 @@ Flags are made using Wikipedia images.
     }
 </style>
 
-<!-- Grid that JS will fill -->
+<!-- Flags grid -->
 <div class="grid-container" id="grid_container"></div>
 
 <script>
-    // Connect to the grid container in the HTML
-    var container = document.getElementById("grid_container");
+  // ===== FLAGS GRID (UNCHANGED) =====
+  var container = document.getElementById("grid_container");
+  var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
 
-    // Image base URL
-    var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
-
-    // Data for places you've lived
-    var living_in_the_world = [
-        {
-            flag: "0/01/Flag_of_California.svg",
-            greeting: "Hey",
-            description: "I lived in California my entire life"
-        }
-        // Add more objects like this later if you want
-    ];
-
-    // Build one grid item per place
-    for (const location of living_in_the_world) {
-        var gridItem = document.createElement("div");
-        gridItem.className = "grid-item";
-
-        var img = document.createElement("img");
-        img.src = http_source + location.flag;
-        img.alt = location.flag + " Flag";
-
-        var description = document.createElement("p");
-        description.textContent = location.description;
-
-        var greeting = document.createElement("p");
-        greeting.textContent = location.greeting;
-
-        gridItem.appendChild(img);
-        gridItem.appendChild(description);
-        gridItem.appendChild(greeting);
-
-        container.appendChild(gridItem);
+  var living_in_the_world = [
+    {
+      flag: "0/01/Flag_of_California.svg",
+      greeting: "Hey",
+      description: "I lived in California my entire life"
     }
+  ];
+
+  for (const location of living_in_the_world) {
+    var gridItem = document.createElement("div");
+    gridItem.className = "grid-item";
+
+    var img = document.createElement("img");
+    img.src = http_source + location.flag;
+    img.alt = location.description;
+
+    var description = document.createElement("p");
+    description.textContent = location.description;
+
+    var greeting = document.createElement("p");
+    greeting.textContent = location.greeting;
+
+    gridItem.appendChild(img);
+    gridItem.appendChild(description);
+    gridItem.appendChild(greeting);
+    container.appendChild(gridItem);
+  }
+</script>
+
+---
+
+## 🍽️ Favorite Foods
+
+<div id="food_grid"></div>
+
+<script>
+  // ===== FOOD GRID (WORKING DIRECT LINKS) =====
+  const foodGrid = document.getElementById("food_grid");
+  const foodContainer = document.createElement("div");
+  foodContainer.className = "grid-container";
+
+  const favoriteFoods = [
+    {
+      name: "Hot Dog",
+      image: "https://upload.wikimedia.org/wikipedia/commons/b/b1/Hot_dog_with_mustard.png",
+      reaction: "Simple but elite 🌭"
+    },
+    {
+      name: "Ramen",
+      image: "https://cdn.pixabay.com/photo/2017/09/02/13/54/ramen-2707554_1280.jpg",
+      reaction: "Comfort food vibes 🍜"
+    },
+    {
+      name: "Pasta",
+      image: "https://cdn.pixabay.com/photo/2016/11/18/15/26/spaghetti-1833064_1280.jpg",
+      reaction: "Never gets old 🍝"
+    }
+  ];
+
+  favoriteFoods.forEach(food => {
+    const item = document.createElement("div");
+    item.className = "grid-item";
+
+    const img = document.createElement("img");
+    img.src = food.image;
+    img.alt = food.name;
+    img.style.objectFit = "cover";
+
+    const name = document.createElement("p");
+    name.textContent = food.name;
+    name.style.fontWeight = "bold";
+
+    const reaction = document.createElement("p");
+    reaction.textContent = food.reaction;
+
+    item.appendChild(img);
+    item.appendChild(name);
+    item.appendChild(reaction);
+    foodContainer.appendChild(item);
+  });
+
+  foodGrid.appendChild(foodContainer);
 </script>
 
 ---
@@ -93,22 +142,17 @@ Flags are made using Wikipedia images.
 
 Here is what I did at those places:
 
-- 🏫 In my younger days I went to Stone Ranch Elementary School.  
-- 🏫 For middle school I went to Oak Valley.  
-- 🎓 I now go to Del Norte High School in 9th grade.  
-- ⛪ I live in San Diego, which is very nice.  
-- 🏢 I visit Belarus every summer to see my family.  
+- 🏫 In my younger days I went to Stone Ranch Elementary School  
+- 🏫 For middle school I went to Oak Valley  
+- 🎓 I now go to Del Norte High School in 9th grade  
+- ⛪ I live in San Diego, which is very nice  
+- 🏢 I visit Belarus every summer to see my family  
 
 ---
 
 ## Culture, Family, and Fun
 
 Everything for me revolves around family sports and freinds
-
--
-<comment>
-Gallery of Pics — scroll to the right for more.
-</comment>
 
 <comment>
 Gallery of Pics — scroll to the right for more.
@@ -119,4 +163,5 @@ Gallery of Pics — scroll to the right for more.
   <img src="{{site.baseurl}}/images/about/rock_kid.jpg" alt="At Red Rock Canyon">
   <img src="{{site.baseurl}}/images/about/rock_mom.jpg" alt="Red Rock Canyon Hike">
 </div>
+
 
