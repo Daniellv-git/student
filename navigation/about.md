@@ -48,7 +48,6 @@ Flags are made using Wikipedia images.
 <div class="grid-container" id="grid_container"></div>
 
 <script>
-  // ===== FLAGS GRID (UNCHANGED) =====
   var container = document.getElementById("grid_container");
   var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
 
@@ -88,25 +87,26 @@ Flags are made using Wikipedia images.
 <div id="food_grid"></div>
 
 <script>
-  // ===== FOOD GRID (WORKING DIRECT LINKS) =====
+  const SITE_BASE = '{{ site.baseurl | default: "" }}';
   const foodGrid = document.getElementById("food_grid");
   const foodContainer = document.createElement("div");
   foodContainer.className = "grid-container";
 
+  // Use `SITE_BASE` so paths work when the site is served under a baseurl
   const favoriteFoods = [
     {
       name: "Hot Dog",
-      image: "https://upload.wikimedia.org/wikipedia/commons/b/b1/Hot_dog_with_mustard.png",
+      image: SITE_BASE + '/images/about/hot_dog.svg',
       reaction: "Simple but elite 🌭"
     },
     {
       name: "Ramen",
-      image: "https://cdn.pixabay.com/photo/2017/09/02/13/54/ramen-2707554_1280.jpg",
+      image: SITE_BASE + '/images/about/ramen.svg',
       reaction: "Comfort food vibes 🍜"
     },
     {
       name: "Pasta",
-      image: "https://cdn.pixabay.com/photo/2016/11/18/15/26/spaghetti-1833064_1280.jpg",
+      image: SITE_BASE + '/images/about/pasta.svg',
       reaction: "Never gets old 🍝"
     }
   ];
@@ -116,7 +116,7 @@ Flags are made using Wikipedia images.
     item.className = "grid-item";
 
     const img = document.createElement("img");
-    img.src = food.image;
+    img.src = food.image; // works because path is relative to site root
     img.alt = food.name;
     img.style.objectFit = "cover";
 
@@ -152,16 +152,17 @@ Here is what I did at those places:
 
 ## Culture, Family, and Fun
 
-Everything for me revolves around family sports and freinds
+Everything for me revolves around family, sports, and friends
 
 <comment>
 Gallery of Pics — scroll to the right for more.
 </comment>
 
 <div class="image-gallery">
-  <img src="{{site.baseurl}}/images/about/red_rock.jpg" alt="Red Rock Canyon View">
-  <img src="{{site.baseurl}}/images/about/rock_kid.jpg" alt="At Red Rock Canyon">
-  <img src="{{site.baseurl}}/images/about/rock_mom.jpg" alt="Red Rock Canyon Hike">
+  <img src="{{ site.baseurl }}/images/about/red_rock.jpg" alt="Red Rock Canyon View">
+  <img src="{{ site.baseurl }}/images/about/rock_kid.jpg" alt="At Red Rock Canyon">
+  <img src="{{ site.baseurl }}/images/about/rock_mom.jpg" alt="Red Rock Canyon Hike">
 </div>
+
 
 

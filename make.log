@@ -37,3 +37,120 @@ To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
 
         MORE INFO: https://github.com/guard/listen/blob/master/README.md
     Server address: http://localhost:4600/student/
+      Regenerating: 1 file(s) changed at 2026-01-05 12:12:58
+                    make.log
+      Remote Theme: Using theme jekyll/minima
+                    ...done in 3.704103201 seconds.
+      Regenerating: 1 file(s) changed at 2026-01-05 12:13:41
+                    navigation/about.md
+      Remote Theme: Using theme jekyll/minima
+                    ...done in 6.627843838 seconds.
+      Regenerating: 1 file(s) changed at 2026-01-05 12:13:48
+                    navigation/about.md
+      Remote Theme: Using theme jekyll/minima
+                    ...done in 4.215722792 seconds.
+      Regenerating: 1 file(s) changed at 2026-01-05 12:19:51
+                    navigation/about.md
+      Remote Theme: Using theme jekyll/minima
+                    ...done in 3.505724713 seconds.
+      Regenerating: 1 file(s) changed at 2026-01-05 12:19:54
+                    navigation/about.md
+      Remote Theme: Using theme jekyll/minima
+                    ...done in 3.540078709 seconds.
+      Regenerating: 1 file(s) changed at 2026-01-05 12:19:58
+                    navigation/about.md
+      Remote Theme: Using theme jekyll/minima
+                    ...done in 3.530953099 seconds.
+      Regenerating: 1 file(s) changed at 2026-01-05 12:22:20
+                    navigation/about.md
+      Remote Theme: Using theme jekyll/minima
+                    ...done in 3.584515947 seconds.
+      Regenerating: 1 file(s) changed at 2026-01-05 12:22:24
+                    navigation/about.md
+      Remote Theme: Using theme jekyll/minima
+                    ...done in 3.300271346 seconds.
+      Regenerating: 1 file(s) changed at 2026-01-05 12:23:07
+                    navigation/about.md
+      Remote Theme: Using theme jekyll/minima
+[2026-01-05 12:23:14] ERROR '/images/about/red_rock.jpg' not found.
+[2026-01-05 12:23:14] ERROR '/images/about/rock_mom.jpg' not found.
+[2026-01-05 12:23:14] ERROR '/images/about/rock_kid.jpg' not found.
+[2026-01-05 12:23:15] ERROR '/images/about/ramen.jpg' not found.
+[2026-01-05 12:23:15] ERROR '/images/about/hot_dog.png' not found.
+[2026-01-05 12:23:15] ERROR '/images/about/pasta.jpg' not found.
+                    ...done in 7.684208215 seconds.
+      Regenerating: 1 file(s) changed at 2026-01-05 12:23:15
+                    navigation/about.md
+      Remote Theme: Using theme jekyll/minima
+[2026-01-05 12:23:17] ERROR '/images/about/red_rock.jpg' not found.
+[2026-01-05 12:23:17] ERROR '/images/about/rock_mom.jpg' not found.
+[2026-01-05 12:23:17] ERROR '/images/about/rock_kid.jpg' not found.
+[2026-01-05 12:23:17] ERROR '/images/about/hot_dog.png' not found.
+[2026-01-05 12:23:17] ERROR '/images/about/ramen.jpg' not found.
+[2026-01-05 12:23:17] ERROR '/images/about/pasta.jpg' not found.
+[2026-01-05 12:23:18] ERROR '/images/about/red_rock.jpg' not found.
+[2026-01-05 12:23:18] ERROR '/images/about/rock_kid.jpg' not found.
+[2026-01-05 12:23:18] ERROR '/images/about/rock_mom.jpg' not found.
+[2026-01-05 12:23:18] ERROR '/images/about/hot_dog.png' not found.
+[2026-01-05 12:23:18] ERROR '/images/about/ramen.jpg' not found.
+[2026-01-05 12:23:18] ERROR '/images/about/pasta.jpg' not found.
+[2026-01-05 12:23:18] ERROR '/images/about/red_rock.jpg' not found.
+[2026-01-05 12:23:18] ERROR '/images/about/rock_mom.jpg' not found.
+[2026-01-05 12:23:18] ERROR '/images/about/rock_kid.jpg' not found.
+[2026-01-05 12:23:18] ERROR '/images/about/pasta.jpg' not found.
+[2026-01-05 12:23:18] ERROR '/images/about/hot_dog.png' not found.
+[2026-01-05 12:23:18] ERROR '/images/about/ramen.jpg' not found.
+[2026-01-05 12:23:19] ERROR '/images/about/red_rock.jpg' not found.
+[2026-01-05 12:23:19] ERROR '/images/about/rock_mom.jpg' not found.
+[2026-01-05 12:23:19] ERROR '/images/about/rock_kid.jpg' not found.
+[2026-01-05 12:23:19] ERROR '/images/about/ramen.jpg' not found.
+[2026-01-05 12:23:19] ERROR '/images/about/hot_dog.png' not found.
+[2026-01-05 12:23:19] ERROR '/images/about/pasta.jpg' not found.
+                    ...done in 5.116224192 seconds.
+      Regenerating: 1 file(s) changed at 2026-01-05 12:23:26
+                    navigation/about.md
+      Remote Theme: Using theme jekyll/minima
+                    ...done in 3.532271868 seconds.
+      Regenerating: 2 file(s) changed at 2026-01-05 12:23:30
+                    make.log
+                    navigation/about.md
+      Remote Theme: Using theme jekyll/minima
+                    ...done in 3.578120497 seconds.
+      Regenerating: 1 file(s) changed at 2026-01-05 12:23:34
+                    navigation/about.md
+      Remote Theme: Using theme jekyll/minima
+                    ...done in 3.41669953 seconds.
+      Regenerating: 1 file(s) changed at 2026-01-05 12:23:37
+                    navigation/about.md
+      Remote Theme: Using theme jekyll/minima
+                    ...done in 7.117773715 seconds.
+      Regenerating: 1 file(s) changed at 2026-01-06 08:35:27
+                    images/about/hot_dog.svg
+      Remote Theme: Using theme jekyll/minima
+                    ...done in 11.01046511 seconds.
+      Regenerating: 3 file(s) changed at 2026-01-06 08:35:38
+                    images/about/hot_dog.svg
+                    images/about/ramen.svg
+                    images/about/pasta.svg
+      Remote Theme: Using theme jekyll/minima
+                    ...done in 3.679241095 seconds.
+      Regenerating: 1 file(s) changed at 2026-01-06 08:35:48
+                    navigation/about.md
+      Remote Theme: Using theme jekyll/minima
+                    ...done in 6.34640503 seconds.
+      Regenerating: 1 file(s) changed at 2026-01-06 08:36:04
+                    navigation/about.md
+      Remote Theme: Using theme jekyll/minima
+                    ...done in 3.6464073 seconds.
+      Regenerating: 1 file(s) changed at 2026-01-06 08:36:33
+                    navigation/about.md
+      Remote Theme: Using theme jekyll/minima
+                    ...done in 9.730439908 seconds.
+      Regenerating: 1 file(s) changed at 2026-01-06 08:36:43
+                    navigation/about.md
+      Remote Theme: Using theme jekyll/minima
+                    ...done in 3.334266183 seconds.
+      Regenerating: 1 file(s) changed at 2026-01-06 08:37:11
+                    .venv/pyvenv.cfg
+      Remote Theme: Using theme jekyll/minima
+Terminated

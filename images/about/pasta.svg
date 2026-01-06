@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" width="400" height="240">
+  <rect width="200" height="120" rx="12" fill="#fff6f0"/>
+  <g fill="#f5d297">
+    <ellipse cx="70" cy="60" rx="44" ry="24"/>
+    <ellipse cx="130" cy="60" rx="44" ry="24"/>
+  </g>
+  <path d="M40 52c20-10 40 10 60 0 20-10 40 10 60 0" stroke="#e08b3a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <title>Pasta Plate</title>
+</svg>
