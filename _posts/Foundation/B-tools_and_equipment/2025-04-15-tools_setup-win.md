@@ -17,3 +17,4 @@ title: Homework Summation! All the Links!
 
 [Nested Conditionals](https://daniellv-git.github.io/student/2026/01/12/nested-conditionals_IPYNB_2_.html)
 
+[Math]https://daniellv-git.github.io/student/js/math
