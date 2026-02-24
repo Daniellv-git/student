@@ -58,3 +58,25 @@ console.log("Hello World!");
     console.log = originalLog;
   });
 </script>
+
+## What I Learned
+
+Throughout these assignments I learned a lot about JavaScript on OpenCoding Society!
+
+**Strings** are used to store and work with text in JavaScript.
+
+**Booleans** are true or false values, useful for making decisions in code.
+
+**JSON** is a way to store and organize data that is easy to read and use.
+
+**Data Abstraction** is about simplifying complex code by breaking it into smaller pieces.
+
+**Arrays** let you store multiple values in one variable instead of making a bunch of separate ones.
+
+**Nested Conditionals** are if statements inside other if statements, used to check multiple conditions.
+
+**Math** covered how to use operators like +, -, *, /, and % to do calculations in JavaScript.
+
+Each assignment helped me get better at writing and understanding code!
+
+My accomplishments:Variables and HTML DOM lesson which I did whith Aadi and Cash hers link:
