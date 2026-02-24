@@ -79,4 +79,5 @@ Throughout these assignments I learned a lot about JavaScript on OpenCoding Soci
 
 Each assignment helped me get better at writing and understanding code!
 
-My accomplishments:Variables and HTML DOM lesson which I did whith Aadi and Cash hers link:
+On February 12th, 2026, I had the opportunity to attend Night at the Museum! Together with my classmates from CSSE Period 1, we showcased our game project, Murder Mystery, which is still being developed. 
+Here is a picture of us ![My Image]({{site.baseurl}}/images/IMG_0469.jpg)
