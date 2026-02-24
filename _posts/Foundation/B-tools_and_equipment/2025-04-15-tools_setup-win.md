@@ -15,3 +15,5 @@ title: Homework Summation! All the Links!
 
 [Arrays](https://daniellv-git.github.io/student/js/arrays)
 
+[Nested Conditionals](https://daniellv-git.github.io/student/2026/01/12/nested-conditionals_IPYNB_2_.html)
+
