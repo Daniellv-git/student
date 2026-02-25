@@ -82,4 +82,9 @@ Each assignment helped me get better at writing and understanding code!
 On February 12th, 2026, I had the opportunity to attend Night at the Museum! Together with my classmates from CSSE Period 1, we showcased our game project, Murder Mystery, which is still being developed. 
 Here is a picture of us ![My Image]({{site.baseurl}}/images/IMG_0469.jpg)
 
-Some of my acheivments include the lesson I made https://pages.opencodingsociety.com/js/variables/
+Some of my achievements include the [lesson I made](https://pages.opencodingsociety.com/js/variables/)
+I also had a really fun time working on the [Connect 4 game](https://rashig-1804.github.io/csse_teamrepo/connect4/)
+
+<a href="https://daniellv-git.github.io/student/achievments" target="_blank">
+  <button>Click Me</button>
+</a>
