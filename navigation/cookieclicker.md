@@ -1,6 +1,8 @@
-<h2>🍪 Cookie Clicker</h2>
+
 <p>Cookies: <span id="cookieCount">0</span></p>
-<button onclick="clickCookie()">Click for a Cookie!</button>
+<button onclick="clickCookie()">
+    🍪
+</button>
 
 <script>
 let cookies = 0;
