@@ -3,7 +3,7 @@ toc: true
 layout: post
 date: 2026-02-23
 title: Achievements
-permalink: /B-tools_and_equipment/achievements
+permalink: /B-tools_and_equipment/achievments
 ---
 
 ## My Achievements
