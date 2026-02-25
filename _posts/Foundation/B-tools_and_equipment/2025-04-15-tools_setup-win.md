@@ -85,6 +85,7 @@ Here is a picture of us ![My Image]({{site.baseurl}}/images/IMG_0469.jpg)
 Some of my achievements include the [lesson I made](https://pages.opencodingsociety.com/js/variables/)
 I also had a really fun time working on the [Connect 4 game](https://rashig-1804.github.io/csse_teamrepo/connect4/)
 
-<a href="https://daniellv-git.github.io/student/tools/achievments" target="_blank">
-  <button>Click Me</button>
+<a href="https://daniellv-git.github.io/student/B-tools_and_equipment/achievments
+" target="_blank">
+  <button>Achievments</button>
 </a>
